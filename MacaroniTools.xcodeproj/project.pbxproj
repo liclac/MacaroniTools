@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FEC9E0A132A573A006C6152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEC9E09132A573A006C6152 /* Foundation.framework */; };
+		8FEC9E15132A573A006C6152 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEC9E14132A573A006C6152 /* UIKit.framework */; };
+		8FEC9E16132A573A006C6152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEC9E09132A573A006C6152 /* Foundation.framework */; };
+		8FEC9E18132A573A006C6152 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEC9E17132A573A006C6152 /* CoreGraphics.framework */; };
+		8FEC9E1B132A573A006C6152 /* libMacaroniTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEC9E06132A573A006C6152 /* libMacaroniTools.a */; };
+		8FEC9E21132A573B006C6152 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FEC9E1F132A573A006C6152 /* InfoPlist.strings */; };
+		8FEC9E24132A573B006C6152 /* MacaroniToolsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8FEC9E23132A573B006C6152 /* MacaroniToolsTests.h */; };
+		8FEC9E26132A573B006C6152 /* MacaroniToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC9E25132A573B006C6152 /* MacaroniToolsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FEC9E19132A573A006C6152 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FEC9DFD132A573A006C6152 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FEC9E05132A573A006C6152;
+			remoteInfo = MacaroniTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FEC9E06132A573A006C6152 /* libMacaroniTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMacaroniTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEC9E09132A573A006C6152 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8FEC9E0D132A573A006C6152 /* MacaroniTools-Prefix.pch */ = {isa = PBXFileReference; path = "MacaroniTools-Prefix.pch"; sourceTree = "<group>"; };
+		8FEC9E13132A573A006C6152 /* MacaroniToolsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacaroniToolsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEC9E14132A573A006C6152 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8FEC9E17132A573A006C6152 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8FEC9E1E132A573A006C6152 /* MacaroniToolsTests-Info.plist */ = {isa = PBXFileReference; path = "MacaroniToolsTests-Info.plist"; sourceTree = "<group>"; };
+		8FEC9E20132A573A006C6152 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8FEC9E22132A573B006C6152 /* MacaroniToolsTests-Prefix.pch */ = {isa = PBXFileReference; path = "MacaroniToolsTests-Prefix.pch"; sourceTree = "<group>"; };
+		8FEC9E23132A573B006C6152 /* MacaroniToolsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacaroniToolsTests.h; sourceTree = "<group>"; };
+		8FEC9E25132A573B006C6152 /* MacaroniToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacaroniToolsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FEC9E03132A573A006C6152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEC9E0A132A573A006C6152 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEC9E0F132A573A006C6152 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEC9E15132A573A006C6152 /* UIKit.framework in Frameworks */,
+				8FEC9E16132A573A006C6152 /* Foundation.framework in Frameworks */,
+				8FEC9E18132A573A006C6152 /* CoreGraphics.framework in Frameworks */,
+				8FEC9E1B132A573A006C6152 /* libMacaroniTools.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FEC9DFB132A573A006C6152 = {
+			isa = PBXGroup;
+			children = (
+				8FEC9E0B132A573A006C6152 /* MacaroniTools */,
+				8FEC9E1C132A573A006C6152 /* MacaroniToolsTests */,
+				8FEC9E08132A573A006C6152 /* Frameworks */,
+				8FEC9E07132A573A006C6152 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FEC9E07132A573A006C6152 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FEC9E06132A573A006C6152 /* libMacaroniTools.a */,
+				8FEC9E13132A573A006C6152 /* MacaroniToolsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FEC9E08132A573A006C6152 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FEC9E09132A573A006C6152 /* Foundation.framework */,
+				8FEC9E14132A573A006C6152 /* UIKit.framework */,
+				8FEC9E17132A573A006C6152 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FEC9E0B132A573A006C6152 /* MacaroniTools */ = {
+			isa = PBXGroup;
+			children = (
+				8FEC9E0C132A573A006C6152 /* Supporting Files */,
+			);
+			path = MacaroniTools;
+			sourceTree = "<group>";
+		};
+		8FEC9E0C132A573A006C6152 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FEC9E0D132A573A006C6152 /* MacaroniTools-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FEC9E1C132A573A006C6152 /* MacaroniToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FEC9E23132A573B006C6152 /* MacaroniToolsTests.h */,
+				8FEC9E25132A573B006C6152 /* MacaroniToolsTests.m */,
+				8FEC9E1D132A573A006C6152 /* Supporting Files */,
+			);
+			path = MacaroniToolsTests;
+			sourceTree = "<group>";
+		};
+		8FEC9E1D132A573A006C6152 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FEC9E1E132A573A006C6152 /* MacaroniToolsTests-Info.plist */,
+				8FEC9E1F132A573A006C6152 /* InfoPlist.strings */,
+				8FEC9E22132A573B006C6152 /* MacaroniToolsTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8FEC9E04132A573A006C6152 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8FEC9E05132A573A006C6152 /* MacaroniTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FEC9E29132A573B006C6152 /* Build configuration list for PBXNativeTarget "MacaroniTools" */;
+			buildPhases = (
+				8FEC9E02132A573A006C6152 /* Sources */,
+				8FEC9E03132A573A006C6152 /* Frameworks */,
+				8FEC9E04132A573A006C6152 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacaroniTools;
+			productName = MacaroniTools;
+			productReference = 8FEC9E06132A573A006C6152 /* libMacaroniTools.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8FEC9E12132A573A006C6152 /* MacaroniToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FEC9E2C132A573B006C6152 /* Build configuration list for PBXNativeTarget "MacaroniToolsTests" */;
+			buildPhases = (
+				8FEC9E0E132A573A006C6152 /* Sources */,
+				8FEC9E0F132A573A006C6152 /* Frameworks */,
+				8FEC9E10132A573A006C6152 /* Resources */,
+				8FEC9E11132A573A006C6152 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FEC9E1A132A573A006C6152 /* PBXTargetDependency */,
+			);
+			name = MacaroniToolsTests;
+			productName = MacaroniToolsTests;
+			productReference = 8FEC9E13132A573A006C6152 /* MacaroniToolsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FEC9DFD132A573A006C6152 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "MacaroniCode Software";
+			};
+			buildConfigurationList = 8FEC9E00132A573A006C6152 /* Build configuration list for PBXProject "MacaroniTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8FEC9DFB132A573A006C6152;
+			productRefGroup = 8FEC9E07132A573A006C6152 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FEC9E05132A573A006C6152 /* MacaroniTools */,
+				8FEC9E12132A573A006C6152 /* MacaroniToolsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FEC9E10132A573A006C6152 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEC9E21132A573B006C6152 /* InfoPlist.strings in Resources */,
+				8FEC9E24132A573B006C6152 /* MacaroniToolsTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FEC9E11132A573A006C6152 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FEC9E02132A573A006C6152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FEC9E0E132A573A006C6152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEC9E26132A573B006C6152 /* MacaroniToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FEC9E1A132A573A006C6152 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FEC9E05132A573A006C6152 /* MacaroniTools */;
+			targetProxy = 8FEC9E19132A573A006C6152 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FEC9E1F132A573A006C6152 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FEC9E20132A573A006C6152 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FEC9E27132A573B006C6152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FEC9E28132A573B006C6152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		8FEC9E2A132A573B006C6152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/MacaroniTools.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacaroniTools/MacaroniTools-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8FEC9E2B132A573B006C6152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/MacaroniTools.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacaroniTools/MacaroniTools-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8FEC9E2D132A573B006C6152 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacaroniToolsTests/MacaroniToolsTests-Prefix.pch";
+				INFOPLIST_FILE = "MacaroniToolsTests/MacaroniToolsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8FEC9E2E132A573B006C6152 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacaroniToolsTests/MacaroniToolsTests-Prefix.pch";
+				INFOPLIST_FILE = "MacaroniToolsTests/MacaroniToolsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FEC9E00132A573A006C6152 /* Build configuration list for PBXProject "MacaroniTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEC9E27132A573B006C6152 /* Debug */,
+				8FEC9E28132A573B006C6152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FEC9E29132A573B006C6152 /* Build configuration list for PBXNativeTarget "MacaroniTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEC9E2A132A573B006C6152 /* Debug */,
+				8FEC9E2B132A573B006C6152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8FEC9E2C132A573B006C6152 /* Build configuration list for PBXNativeTarget "MacaroniToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEC9E2D132A573B006C6152 /* Debug */,
+				8FEC9E2E132A573B006C6152 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FEC9DFD132A573A006C6152 /* Project object */;
+}
