@@ -1,7 +1,9 @@
 //
-// Prefix header for all source files of the 'MacaroniTools' target in the 'MacaroniTools' project
+//  MacaroniTools-Prefix.pch
+//  MacaroniTools
+//
+//  Created by Johannes Ekberg on 2011-04-22.
+//  Copyright 2011 MacaroniCode Software. All rights reserved.
 //
 
-#ifdef __OBJC__
-	#import <Foundation/Foundation.h>
-#endif
+#import "MacaroniTools.h"

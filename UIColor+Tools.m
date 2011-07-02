@@ -6,8 +6,11 @@
 //  Copyright 2010 MacaroniCode Software. All rights reserved.
 //
 
-#import "UIColor+Tools.h"
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
+#import "UIColor+Tools.h"
+#import "MacaroniMacros.h"
 
 @implementation UIColor(Tools)
 

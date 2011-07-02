@@ -21,6 +21,6 @@
  * Returns the Query part of the URL as an NSDictionary object
  * @return An NSDictionary containing the query components
  */
-- (NSDictionary *)queryAsDictionary;
+- (NSDictionary *)queryDictionary;
 
 @end

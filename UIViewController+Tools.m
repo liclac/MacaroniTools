@@ -7,7 +7,8 @@
 //
 
 #import "UIViewController+Tools.h"
-
+#import "MTDevice.h"
+#import "MTNavigationController.h"
 
 @implementation UIViewController(Tools)
 
@@ -22,6 +23,11 @@
 }
 
 - (void)viewDidPopAnimated:(BOOL)animated
+{
+	//Override to handle
+}
+
+- (void)viewDidPushAnimated:(BOOL)animated
 {
 	//Override to handle
 }

@@ -3,6 +3,7 @@
  * Big thanks to him for this code!
  */
 
+#if TARGET_OS_IPHONE
 #import "UIButton+Glossy.h"
 
 /**
@@ -321,3 +322,4 @@ static void calc_glossy_color(void* info, const float* in, float* out)
 }
 
 @end
+#endif

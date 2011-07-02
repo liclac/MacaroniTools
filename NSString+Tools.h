@@ -91,5 +91,11 @@
  * @return A Capitalized String
  */
 - (NSString *)smartCapitalizeWithAdditionalWordsFromArray:(NSArray *)array;
+
+/**
+ * Returns a string with all HTML formatting (everything between "&lt;" and "&gt;") removed.
+ * @return A string with HTML removed
+ */
+- (NSString *)stringByRemovingHTML;
  
 @end

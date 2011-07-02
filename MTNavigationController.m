@@ -28,4 +28,15 @@
 	return [super popViewControllerAnimated:animated];
 }
 
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated
+{
+	[viewController viewDidPushAnimated:animated];
+	[super pushViewController:viewController animated:animated];
+}
+
+- (BOOL)disablesAutomaticKeyboardDismissal
+{
+	return NO;
+}
+
 @end

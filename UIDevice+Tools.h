@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 /**
  * Extensions for the UIDevice class
@@ -19,8 +20,6 @@
 
 /// Checks werther the current device is an iPhone
 - (BOOL)isPhone;
-/// Checks werther the current device is an iPod Touch
-- (BOOL)isPod;
 /// Checks werther the current device is an iPad
 - (BOOL)isPad;
 /// Checks werther the current device is running on iOS4

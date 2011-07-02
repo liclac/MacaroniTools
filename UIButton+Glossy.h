@@ -3,6 +3,7 @@
  * Big thanks to him for this code!
  */
 
+#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
 /**
@@ -39,4 +40,3 @@
 - (void)setBackgroundToGlossyRectOfColor:(UIColor*)color withBorder:(BOOL)border forState:(UIControlState)state;
 
 @end
-

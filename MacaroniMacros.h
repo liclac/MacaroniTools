@@ -13,13 +13,21 @@
  *  The benchmarking macros are based on code from http://blog.coriolis.ch/2009/01/05/macros-for-xcode/
  */
 
+#import "MacaroniCommons.h"
+#import <TargetConditionals.h>
 
 //Safely release an object by also nillifying it's pointer
 #define MTSafeRelease(obj) [obj release], obj = nil;
 
-//Convert RGB colors in to iOS-colors
-#define MTRGBAColor(redC, greenC, blueC, alphaC) [UIColor colorWithRed:redC/255.0f green:greenC/255.0f blue:blueC/255.0f alpha:alphaC]
-#define MTRGBColor(redC, greenC, blueC) [UIColor colorWithRed:redC/255.0f green:greenC/255.0f blue:blueC/255.0f alpha:1.0f]
+//Convert RGB colors in to NSColor/UIColor-values
+#if TARGET_OS_IPHONE
+	#define MTRGBAColor(redC, greenC, blueC, alphaC) [UIColor colorWithRed:redC/255.0f green:greenC/255.0f\
+																	  blue:blueC/255.0f alpha:alphaC]
+#else
+	#define MTRGBAColor(redC, greenC, blueC, alphaC) [NSColor colorWithCalibratedRed:redC/255.0f green:greenC/255.0f\
+																				blue:blueC/255.0f alpha:alphaC]
+#endif
+#define MTRGBColor(redC, greenC, blueC) MTRGBAColor(redC, greenC, blueC, 1.0f)
 
 //Convert scalar numerics into NSNumbers
 #define MTNumber(input)					[NSNumber numberWithInteger:(NSInteger)input]
@@ -48,14 +56,17 @@
 //MTLog is an NSLog that will become a NO-OP in Release-code
 //MTALog crashes your application if in Debug mode but only logs in Release (useful for "This should never happen"-logging)
 //MTMark prints the current function name to the console. Becomes a NO-OP in Release-code
+//MTAssertReturn is an assertation that becomes a "return"-statement in release code, eventual return value should follow before the ";"
 #ifdef DEBUG
 	#define MTLog(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
 	#define MTALog(...) [[NSAssertionHandler currentHandler] handleFailureInFunction:[NSString stringWithCString:__PRETTY_FUNCTION__ encoding:NSUTF8StringEncoding] file:[NSString stringWithCString:__FILE__ encoding:NSUTF8StringEncoding] lineNumber:__LINE__ description:__VA_ARGS__]
 	#define MTMark() NSLog(@"%s", __PRETTY_FUNCTION__);
+	#define MTAssertReturn(condition, ...) if(!(condition)) MTALog(__VA_ARGS__)
 #else
 	#define MTLog(...) do { } while (0)
 	#define MTALog(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
 	#define MTMark() do { } while(0)
+	#define MTAssertReturn(condition, ...) if(!(condition)) return
 #endif
 
 //Assertation - if the Condition is false an error is logged and if the app is in Debug mode it crashes
@@ -77,3 +88,12 @@
 	#define MTBenchEnd() do{ } while(0)
 	#define MTBenchEndMsg(msg) do { } while(0)
 #endif
+
+
+//Conversion between Degrees and Radians
+#define MTDegreesToRadians(_degrees_) (_degrees_ * M_PI / 180)
+#define MTRadiansToDegrees(_radians_) (_radians_ * 180 / M_PI)
+
+
+//[NSString stringWithFormat:] shortcuts
+#define MTSTR(...) [NSString stringWithFormat:__VA_ARGS__]

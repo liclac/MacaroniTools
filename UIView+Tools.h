@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MacaroniTypes.h"
+#import <UIKit/UIKit.h>
 
 #define MT_ANIMATIONS_DEFAULT_DURATION 0.25 ///< Default Duration for all animations
 #define MT_ANIMATIONS_DEFAULT_DELAY 0.0 ///< Default Delay for all animations
@@ -155,11 +155,5 @@
  * Hides the View (useful with -[performSeletor:])
  */
 - (void)hide;
-
-
-/**
- * Performs a Zoom In-transition.
- */
-- (void)zoomInWithDuration:(NSTimeInterval)duration targetScale:(CGFloat)scale fade:(BOOL)fade;
 
 @end

@@ -156,11 +156,4 @@
 	[self setHidden:YES];
 }
 
-
-//Zoom
-- (void)zoomInWithDuration:(NSTimeInterval)duration targetScale:(CGFloat)scale fade:(BOOL)fade
-{
-	//TODO: Everything >.<
-}
-
 @end

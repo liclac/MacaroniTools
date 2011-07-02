@@ -23,12 +23,6 @@
 	return isPad;
 }
 
-- (BOOL)isPod
-{
-	if(!deviceChecked) isPod = [super isPod];
-	return isPod;
-}
-
 - (BOOL)isHighRes
 {
 	if(!resChecked) isHighRes = ([UIScreen instancesRespondToSelector:@selector(scale)] && [[UIScreen mainScreen] scale] > 1.0);

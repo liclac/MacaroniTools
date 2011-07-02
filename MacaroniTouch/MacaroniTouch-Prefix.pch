@@ -1,0 +1,9 @@
+//
+// Prefix header for all source files of the 'MacaroniTouch' target in the 'MacaroniTouch' project
+//
+
+/*#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif
+
+#import "MacaroniTouch.h"*/

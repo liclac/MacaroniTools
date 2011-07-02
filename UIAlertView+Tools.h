@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 #define MT_ALERT_DEFAULT_BUTTON_TITLE @"OK" ///< Default Button Title for Quick UIAlertViews
 

@@ -7,132 +7,270 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8FEC9E0A132A573A006C6152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEC9E09132A573A006C6152 /* Foundation.framework */; };
-		8FEC9E15132A573A006C6152 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEC9E14132A573A006C6152 /* UIKit.framework */; };
-		8FEC9E16132A573A006C6152 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEC9E09132A573A006C6152 /* Foundation.framework */; };
-		8FEC9E18132A573A006C6152 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEC9E17132A573A006C6152 /* CoreGraphics.framework */; };
-		8FEC9E1B132A573A006C6152 /* libMacaroniTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEC9E06132A573A006C6152 /* libMacaroniTools.a */; };
-		8FEC9E21132A573B006C6152 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FEC9E1F132A573A006C6152 /* InfoPlist.strings */; };
-		8FEC9E24132A573B006C6152 /* MacaroniToolsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8FEC9E23132A573B006C6152 /* MacaroniToolsTests.h */; };
-		8FEC9E26132A573B006C6152 /* MacaroniToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEC9E25132A573B006C6152 /* MacaroniToolsTests.m */; };
+		8F97EF6A13BE406400C17A37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F97EF6613BE404E00C17A37 /* Foundation.framework */; };
+		8F97EF6B13BE406400C17A37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F97EF6713BE404E00C17A37 /* UIKit.framework */; };
+		8FE01DFD1361BD7600E74EDB /* MacaroniTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCDE287132BBCCD0027C0B5 /* MacaroniTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01DFE1361BDC600E74EDB /* NSBundle+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCDE295132BBCCD0027C0B5 /* NSBundle+Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01DFF1361BDC600E74EDB /* NSDictionary+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCDE297132BBCCD0027C0B5 /* NSDictionary+Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01E001361BDC600E74EDB /* NSMutableArray+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCDE299132BBCCD0027C0B5 /* NSMutableArray+Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01E011361BDC600E74EDB /* NSNull+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCDE29B132BBCCD0027C0B5 /* NSNull+Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01E021361BDC600E74EDB /* NSObject+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCDE29D132BBCCD0027C0B5 /* NSObject+Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01E031361BDC600E74EDB /* NSString+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCDE29F132BBCCD0027C0B5 /* NSString+Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01E041361BDC600E74EDB /* NSURL+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCDE2A1132BBCCD0027C0B5 /* NSURL+Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01E051361BDC600E74EDB /* UIAlertView+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCDE2A3132BBCCD0027C0B5 /* UIAlertView+Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01E061361BDC600E74EDB /* UIButton+Glossy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCDE2A5132BBCCD0027C0B5 /* UIButton+Glossy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01E071361BDC600E74EDB /* UIColor+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCDE2A7132BBCCD0027C0B5 /* UIColor+Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01E081361BDC600E74EDB /* UIDevice+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCDE2A9132BBCCD0027C0B5 /* UIDevice+Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01E091361BDC600E74EDB /* UIImageView+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCDE2AB132BBCCD0027C0B5 /* UIImageView+Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01E0A1361BDC600E74EDB /* UITableView+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCDE2AD132BBCCD0027C0B5 /* UITableView+Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01E0B1361BDC600E74EDB /* UIView+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCDE2AF132BBCCD0027C0B5 /* UIView+Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01E0C1361BDC600E74EDB /* UIViewController+Tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCDE2B1132BBCCD0027C0B5 /* UIViewController+Tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01E0D1361BDDB00E74EDB /* MTDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCDE289132BBCCD0027C0B5 /* MTDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01E0E1361BDDB00E74EDB /* MTNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCDE28F132BBCCD0027C0B5 /* MTNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01E0F1361BDDB00E74EDB /* MTView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F22C8C9136062DE00CB35D8 /* MTView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01E101361BE3100E74EDB /* NSBundle+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE296132BBCCD0027C0B5 /* NSBundle+Tools.m */; };
+		8FE01E111361BE3100E74EDB /* NSDictionary+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE298132BBCCD0027C0B5 /* NSDictionary+Tools.m */; };
+		8FE01E121361BE3100E74EDB /* NSMutableArray+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE29A132BBCCD0027C0B5 /* NSMutableArray+Tools.m */; };
+		8FE01E131361BE3100E74EDB /* NSNull+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE29C132BBCCD0027C0B5 /* NSNull+Tools.m */; };
+		8FE01E141361BE3100E74EDB /* NSObject+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE29E132BBCCD0027C0B5 /* NSObject+Tools.m */; };
+		8FE01E151361BE3100E74EDB /* NSString+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE2A0132BBCCD0027C0B5 /* NSString+Tools.m */; };
+		8FE01E161361BE3100E74EDB /* NSURL+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE2A2132BBCCD0027C0B5 /* NSURL+Tools.m */; };
+		8FE01E211361BE3100E74EDB /* MTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F22C8CA136062DE00CB35D8 /* MTView.m */; };
+		8FE01E231361BE7200E74EDB /* MacaroniCommons.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FE01E221361BE7200E74EDB /* MacaroniCommons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE01E271361C0C400E74EDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE01E261361C0C400E74EDB /* Foundation.framework */; };
+		8FE01E291361C0DA00E74EDB /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE01E281361C0DA00E74EDB /* AppKit.framework */; };
+		8FE01E3A1361CE6300E74EDB /* NSBundle+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE296132BBCCD0027C0B5 /* NSBundle+Tools.m */; };
+		8FE01E3B1361CE6300E74EDB /* NSDictionary+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE298132BBCCD0027C0B5 /* NSDictionary+Tools.m */; };
+		8FE01E3C1361CE6300E74EDB /* NSMutableArray+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE29A132BBCCD0027C0B5 /* NSMutableArray+Tools.m */; };
+		8FE01E3D1361CE6300E74EDB /* NSNull+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE29C132BBCCD0027C0B5 /* NSNull+Tools.m */; };
+		8FE01E3E1361CE6300E74EDB /* NSObject+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE29E132BBCCD0027C0B5 /* NSObject+Tools.m */; };
+		8FE01E3F1361CE6300E74EDB /* NSString+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE2A0132BBCCD0027C0B5 /* NSString+Tools.m */; };
+		8FE01E401361CE6300E74EDB /* NSURL+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE2A2132BBCCD0027C0B5 /* NSURL+Tools.m */; };
+		8FE01E411361CE6300E74EDB /* UIAlertView+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE2A4132BBCCD0027C0B5 /* UIAlertView+Tools.m */; };
+		8FE01E421361CE6300E74EDB /* UIButton+Glossy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE2A6132BBCCD0027C0B5 /* UIButton+Glossy.m */; };
+		8FE01E431361CE6300E74EDB /* UIColor+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE2A8132BBCCD0027C0B5 /* UIColor+Tools.m */; };
+		8FE01E441361CE6300E74EDB /* UIDevice+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE2AA132BBCCD0027C0B5 /* UIDevice+Tools.m */; };
+		8FE01E451361CE6300E74EDB /* UIImageView+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE2AC132BBCCD0027C0B5 /* UIImageView+Tools.m */; };
+		8FE01E461361CE6300E74EDB /* UITableView+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE2AE132BBCCD0027C0B5 /* UITableView+Tools.m */; };
+		8FE01E471361CE6300E74EDB /* UIView+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE2B0132BBCCD0027C0B5 /* UIView+Tools.m */; };
+		8FE01E481361CE6300E74EDB /* UIViewController+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE2B2132BBCCD0027C0B5 /* UIViewController+Tools.m */; };
+		8FE01E491361CE6300E74EDB /* MTDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE28A132BBCCD0027C0B5 /* MTDevice.m */; };
+		8FE01E4A1361CE6300E74EDB /* MTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FCDE290132BBCCD0027C0B5 /* MTNavigationController.m */; };
+		8FECD6E81365852200F20FA7 /* MacaroniMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FCDE286132BBCCD0027C0B5 /* MacaroniMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8FEC9E19132A573A006C6152 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8FEC9DFD132A573A006C6152 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8FEC9E05132A573A006C6152;
-			remoteInfo = MacaroniTools;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		8FEC9E06132A573A006C6152 /* libMacaroniTools.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMacaroniTools.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FEC9E09132A573A006C6152 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8FEC9E0D132A573A006C6152 /* MacaroniTools-Prefix.pch */ = {isa = PBXFileReference; path = "MacaroniTools-Prefix.pch"; sourceTree = "<group>"; };
-		8FEC9E13132A573A006C6152 /* MacaroniToolsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacaroniToolsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FEC9E14132A573A006C6152 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		8FEC9E17132A573A006C6152 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8FEC9E1E132A573A006C6152 /* MacaroniToolsTests-Info.plist */ = {isa = PBXFileReference; path = "MacaroniToolsTests-Info.plist"; sourceTree = "<group>"; };
-		8FEC9E20132A573A006C6152 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8FEC9E22132A573B006C6152 /* MacaroniToolsTests-Prefix.pch */ = {isa = PBXFileReference; path = "MacaroniToolsTests-Prefix.pch"; sourceTree = "<group>"; };
-		8FEC9E23132A573B006C6152 /* MacaroniToolsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacaroniToolsTests.h; sourceTree = "<group>"; };
-		8FEC9E25132A573B006C6152 /* MacaroniToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacaroniToolsTests.m; sourceTree = "<group>"; };
+		8F22C8C9136062DE00CB35D8 /* MTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTView.h; sourceTree = "<group>"; };
+		8F22C8CA136062DE00CB35D8 /* MTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTView.m; sourceTree = "<group>"; };
+		8F97EF6613BE404E00C17A37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8F97EF6713BE404E00C17A37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS5.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8FCDE285132BBCCD0027C0B5 /* Doxygen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Doxygen.h; sourceTree = SOURCE_ROOT; };
+		8FCDE286132BBCCD0027C0B5 /* MacaroniMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacaroniMacros.h; sourceTree = SOURCE_ROOT; };
+		8FCDE287132BBCCD0027C0B5 /* MacaroniTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacaroniTools.h; sourceTree = SOURCE_ROOT; };
+		8FCDE289132BBCCD0027C0B5 /* MTDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTDevice.h; sourceTree = SOURCE_ROOT; };
+		8FCDE28A132BBCCD0027C0B5 /* MTDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTDevice.m; sourceTree = SOURCE_ROOT; };
+		8FCDE28F132BBCCD0027C0B5 /* MTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTNavigationController.h; sourceTree = SOURCE_ROOT; };
+		8FCDE290132BBCCD0027C0B5 /* MTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTNavigationController.m; sourceTree = SOURCE_ROOT; };
+		8FCDE295132BBCCD0027C0B5 /* NSBundle+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Tools.h"; sourceTree = SOURCE_ROOT; };
+		8FCDE296132BBCCD0027C0B5 /* NSBundle+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Tools.m"; sourceTree = SOURCE_ROOT; };
+		8FCDE297132BBCCD0027C0B5 /* NSDictionary+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Tools.h"; sourceTree = SOURCE_ROOT; };
+		8FCDE298132BBCCD0027C0B5 /* NSDictionary+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Tools.m"; sourceTree = SOURCE_ROOT; };
+		8FCDE299132BBCCD0027C0B5 /* NSMutableArray+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Tools.h"; sourceTree = SOURCE_ROOT; };
+		8FCDE29A132BBCCD0027C0B5 /* NSMutableArray+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Tools.m"; sourceTree = SOURCE_ROOT; };
+		8FCDE29B132BBCCD0027C0B5 /* NSNull+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+Tools.h"; sourceTree = SOURCE_ROOT; };
+		8FCDE29C132BBCCD0027C0B5 /* NSNull+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNull+Tools.m"; sourceTree = SOURCE_ROOT; };
+		8FCDE29D132BBCCD0027C0B5 /* NSObject+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Tools.h"; sourceTree = SOURCE_ROOT; };
+		8FCDE29E132BBCCD0027C0B5 /* NSObject+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Tools.m"; sourceTree = SOURCE_ROOT; };
+		8FCDE29F132BBCCD0027C0B5 /* NSString+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Tools.h"; sourceTree = SOURCE_ROOT; };
+		8FCDE2A0132BBCCD0027C0B5 /* NSString+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Tools.m"; sourceTree = SOURCE_ROOT; };
+		8FCDE2A1132BBCCD0027C0B5 /* NSURL+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+Tools.h"; sourceTree = SOURCE_ROOT; };
+		8FCDE2A2132BBCCD0027C0B5 /* NSURL+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Tools.m"; sourceTree = SOURCE_ROOT; };
+		8FCDE2A3132BBCCD0027C0B5 /* UIAlertView+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Tools.h"; sourceTree = SOURCE_ROOT; };
+		8FCDE2A4132BBCCD0027C0B5 /* UIAlertView+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Tools.m"; sourceTree = SOURCE_ROOT; };
+		8FCDE2A5132BBCCD0027C0B5 /* UIButton+Glossy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Glossy.h"; sourceTree = SOURCE_ROOT; };
+		8FCDE2A6132BBCCD0027C0B5 /* UIButton+Glossy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Glossy.m"; sourceTree = SOURCE_ROOT; };
+		8FCDE2A7132BBCCD0027C0B5 /* UIColor+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Tools.h"; sourceTree = SOURCE_ROOT; };
+		8FCDE2A8132BBCCD0027C0B5 /* UIColor+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Tools.m"; sourceTree = SOURCE_ROOT; };
+		8FCDE2A9132BBCCD0027C0B5 /* UIDevice+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Tools.h"; sourceTree = SOURCE_ROOT; };
+		8FCDE2AA132BBCCD0027C0B5 /* UIDevice+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Tools.m"; sourceTree = SOURCE_ROOT; };
+		8FCDE2AB132BBCCD0027C0B5 /* UIImageView+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Tools.h"; sourceTree = SOURCE_ROOT; };
+		8FCDE2AC132BBCCD0027C0B5 /* UIImageView+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Tools.m"; sourceTree = SOURCE_ROOT; };
+		8FCDE2AD132BBCCD0027C0B5 /* UITableView+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+Tools.h"; sourceTree = SOURCE_ROOT; };
+		8FCDE2AE132BBCCD0027C0B5 /* UITableView+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Tools.m"; sourceTree = SOURCE_ROOT; };
+		8FCDE2AF132BBCCD0027C0B5 /* UIView+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Tools.h"; sourceTree = SOURCE_ROOT; };
+		8FCDE2B0132BBCCD0027C0B5 /* UIView+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tools.m"; sourceTree = SOURCE_ROOT; };
+		8FCDE2B1132BBCCD0027C0B5 /* UIViewController+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tools.h"; sourceTree = SOURCE_ROOT; };
+		8FCDE2B2132BBCCD0027C0B5 /* UIViewController+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tools.m"; sourceTree = SOURCE_ROOT; };
+		8FE01DF11361BC8800E74EDB /* MacaroniTools-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacaroniTools-Info.plist"; sourceTree = "<group>"; };
+		8FE01E221361BE7200E74EDB /* MacaroniCommons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacaroniCommons.h; sourceTree = "<group>"; };
+		8FE01E241361BE7E00E74EDB /* MacaroniTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MacaroniTouch.h; sourceTree = "<group>"; };
+		8FE01E261361C0C400E74EDB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8FE01E281361C0DA00E74EDB /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8FE01E2A1361C18200E74EDB /* MacaroniTools-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MacaroniTools-Prefix.pch"; sourceTree = "<group>"; };
+		8FE01E361361CCFA00E74EDB /* MacaroniTouch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacaroniTouch-Prefix.pch"; sourceTree = "<group>"; };
+		8FECD6C7136582A400F20FA7 /* MacaroniTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MacaroniTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FECD6C8136582A400F20FA7 /* libMacaroniTouch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMacaroniTouch.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8FEC9E03132A573A006C6152 /* Frameworks */ = {
+		8FE01DE91361BC8800E74EDB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FEC9E0A132A573A006C6152 /* Foundation.framework in Frameworks */,
+				8FE01E291361C0DA00E74EDB /* AppKit.framework in Frameworks */,
+				8FE01E271361C0C400E74EDB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FEC9E0F132A573A006C6152 /* Frameworks */ = {
+		8FE01E2D1361CCF900E74EDB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FEC9E15132A573A006C6152 /* UIKit.framework in Frameworks */,
-				8FEC9E16132A573A006C6152 /* Foundation.framework in Frameworks */,
-				8FEC9E18132A573A006C6152 /* CoreGraphics.framework in Frameworks */,
-				8FEC9E1B132A573A006C6152 /* libMacaroniTools.a in Frameworks */,
+				8F97EF6A13BE406400C17A37 /* Foundation.framework in Frameworks */,
+				8F97EF6B13BE406400C17A37 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8FEC9DFB132A573A006C6152 = {
+		8F8ACC8D1334DB2100682E96 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				8FEC9E0B132A573A006C6152 /* MacaroniTools */,
-				8FEC9E1C132A573A006C6152 /* MacaroniToolsTests */,
-				8FEC9E08132A573A006C6152 /* Frameworks */,
-				8FEC9E07132A573A006C6152 /* Products */,
+				8FCDE295132BBCCD0027C0B5 /* NSBundle+Tools.h */,
+				8FCDE296132BBCCD0027C0B5 /* NSBundle+Tools.m */,
+				8FCDE297132BBCCD0027C0B5 /* NSDictionary+Tools.h */,
+				8FCDE298132BBCCD0027C0B5 /* NSDictionary+Tools.m */,
+				8FCDE299132BBCCD0027C0B5 /* NSMutableArray+Tools.h */,
+				8FCDE29A132BBCCD0027C0B5 /* NSMutableArray+Tools.m */,
+				8FCDE29B132BBCCD0027C0B5 /* NSNull+Tools.h */,
+				8FCDE29C132BBCCD0027C0B5 /* NSNull+Tools.m */,
+				8FCDE29D132BBCCD0027C0B5 /* NSObject+Tools.h */,
+				8FCDE29E132BBCCD0027C0B5 /* NSObject+Tools.m */,
+				8FCDE29F132BBCCD0027C0B5 /* NSString+Tools.h */,
+				8FCDE2A0132BBCCD0027C0B5 /* NSString+Tools.m */,
+				8FCDE2A1132BBCCD0027C0B5 /* NSURL+Tools.h */,
+				8FCDE2A2132BBCCD0027C0B5 /* NSURL+Tools.m */,
+				8FCDE2A3132BBCCD0027C0B5 /* UIAlertView+Tools.h */,
+				8FCDE2A4132BBCCD0027C0B5 /* UIAlertView+Tools.m */,
+				8FCDE2A5132BBCCD0027C0B5 /* UIButton+Glossy.h */,
+				8FCDE2A6132BBCCD0027C0B5 /* UIButton+Glossy.m */,
+				8FCDE2A7132BBCCD0027C0B5 /* UIColor+Tools.h */,
+				8FCDE2A8132BBCCD0027C0B5 /* UIColor+Tools.m */,
+				8FCDE2A9132BBCCD0027C0B5 /* UIDevice+Tools.h */,
+				8FCDE2AA132BBCCD0027C0B5 /* UIDevice+Tools.m */,
+				8FCDE2AB132BBCCD0027C0B5 /* UIImageView+Tools.h */,
+				8FCDE2AC132BBCCD0027C0B5 /* UIImageView+Tools.m */,
+				8FCDE2AD132BBCCD0027C0B5 /* UITableView+Tools.h */,
+				8FCDE2AE132BBCCD0027C0B5 /* UITableView+Tools.m */,
+				8FCDE2AF132BBCCD0027C0B5 /* UIView+Tools.h */,
+				8FCDE2B0132BBCCD0027C0B5 /* UIView+Tools.m */,
+				8FCDE2B1132BBCCD0027C0B5 /* UIViewController+Tools.h */,
+				8FCDE2B2132BBCCD0027C0B5 /* UIViewController+Tools.m */,
 			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
-		8FEC9E07132A573A006C6152 /* Products */ = {
+		8F8ACC8F1334DB6100682E96 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				8FEC9E06132A573A006C6152 /* libMacaroniTools.a */,
-				8FEC9E13132A573A006C6152 /* MacaroniToolsTests.octest */,
+				8FCDE289132BBCCD0027C0B5 /* MTDevice.h */,
+				8FCDE28A132BBCCD0027C0B5 /* MTDevice.m */,
+				8FCDE28F132BBCCD0027C0B5 /* MTNavigationController.h */,
+				8FCDE290132BBCCD0027C0B5 /* MTNavigationController.m */,
+				8F22C8C9136062DE00CB35D8 /* MTView.h */,
+				8F22C8CA136062DE00CB35D8 /* MTView.m */,
 			);
-			name = Products;
+			name = Classes;
 			sourceTree = "<group>";
 		};
-		8FEC9E08132A573A006C6152 /* Frameworks */ = {
+		8FE01DEF1361BC8800E74EDB /* MacaroniTools */ = {
 			isa = PBXGroup;
 			children = (
-				8FEC9E09132A573A006C6152 /* Foundation.framework */,
-				8FEC9E14132A573A006C6152 /* UIKit.framework */,
-				8FEC9E17132A573A006C6152 /* CoreGraphics.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8FEC9E0B132A573A006C6152 /* MacaroniTools */ = {
-			isa = PBXGroup;
-			children = (
-				8FEC9E0C132A573A006C6152 /* Supporting Files */,
+				8FE01DF11361BC8800E74EDB /* MacaroniTools-Info.plist */,
+				8FE01E2A1361C18200E74EDB /* MacaroniTools-Prefix.pch */,
+				8FE01E261361C0C400E74EDB /* Foundation.framework */,
+				8FE01E281361C0DA00E74EDB /* AppKit.framework */,
 			);
 			path = MacaroniTools;
 			sourceTree = "<group>";
 		};
-		8FEC9E0C132A573A006C6152 /* Supporting Files */ = {
+		8FE01E341361CCFA00E74EDB /* MacaroniTouch */ = {
 			isa = PBXGroup;
 			children = (
-				8FEC9E0D132A573A006C6152 /* MacaroniTools-Prefix.pch */,
+				8F97EF6613BE404E00C17A37 /* Foundation.framework */,
+				8F97EF6713BE404E00C17A37 /* UIKit.framework */,
+				8FE01E361361CCFA00E74EDB /* MacaroniTouch-Prefix.pch */,
 			);
-			name = "Supporting Files";
+			path = MacaroniTouch;
 			sourceTree = "<group>";
 		};
-		8FEC9E1C132A573A006C6152 /* MacaroniToolsTests */ = {
+		8FE01E691361DB9A00E74EDB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8FEC9E23132A573B006C6152 /* MacaroniToolsTests.h */,
-				8FEC9E25132A573B006C6152 /* MacaroniToolsTests.m */,
-				8FEC9E1D132A573A006C6152 /* Supporting Files */,
 			);
-			path = MacaroniToolsTests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		8FEC9E1D132A573A006C6152 /* Supporting Files */ = {
+		8FEC9DFB132A573A006C6152 = {
 			isa = PBXGroup;
 			children = (
-				8FEC9E1E132A573A006C6152 /* MacaroniToolsTests-Info.plist */,
-				8FEC9E1F132A573A006C6152 /* InfoPlist.strings */,
-				8FEC9E22132A573B006C6152 /* MacaroniToolsTests-Prefix.pch */,
+				8FE01E221361BE7200E74EDB /* MacaroniCommons.h */,
+				8FCDE287132BBCCD0027C0B5 /* MacaroniTools.h */,
+				8FE01E241361BE7E00E74EDB /* MacaroniTouch.h */,
+				8FCDE286132BBCCD0027C0B5 /* MacaroniMacros.h */,
+				8F8ACC8D1334DB2100682E96 /* Categories */,
+				8F8ACC8F1334DB6100682E96 /* Classes */,
+				8FEC9E0B132A573A006C6152 /* Project Headers */,
+				8FE01DEF1361BC8800E74EDB /* MacaroniTools */,
+				8FE01E341361CCFA00E74EDB /* MacaroniTouch */,
+				8FE01E691361DB9A00E74EDB /* Frameworks */,
+				8FECD6C7136582A400F20FA7 /* MacaroniTools.framework */,
+				8FECD6C8136582A400F20FA7 /* libMacaroniTouch.a */,
 			);
-			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FEC9E0B132A573A006C6152 /* Project Headers */ = {
+			isa = PBXGroup;
+			children = (
+				8FCDE285132BBCCD0027C0B5 /* Doxygen.h */,
+			);
+			name = "Project Headers";
+			path = MacaroniTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8FEC9E04132A573A006C6152 /* Headers */ = {
+		8FE01DEA1361BC8800E74EDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FE01E231361BE7200E74EDB /* MacaroniCommons.h in Headers */,
+				8FECD6E81365852200F20FA7 /* MacaroniMacros.h in Headers */,
+				8FE01DFD1361BD7600E74EDB /* MacaroniTools.h in Headers */,
+				8FE01DFE1361BDC600E74EDB /* NSBundle+Tools.h in Headers */,
+				8FE01DFF1361BDC600E74EDB /* NSDictionary+Tools.h in Headers */,
+				8FE01E001361BDC600E74EDB /* NSMutableArray+Tools.h in Headers */,
+				8FE01E011361BDC600E74EDB /* NSNull+Tools.h in Headers */,
+				8FE01E021361BDC600E74EDB /* NSObject+Tools.h in Headers */,
+				8FE01E031361BDC600E74EDB /* NSString+Tools.h in Headers */,
+				8FE01E041361BDC600E74EDB /* NSURL+Tools.h in Headers */,
+				8FE01E051361BDC600E74EDB /* UIAlertView+Tools.h in Headers */,
+				8FE01E061361BDC600E74EDB /* UIButton+Glossy.h in Headers */,
+				8FE01E071361BDC600E74EDB /* UIColor+Tools.h in Headers */,
+				8FE01E081361BDC600E74EDB /* UIDevice+Tools.h in Headers */,
+				8FE01E091361BDC600E74EDB /* UIImageView+Tools.h in Headers */,
+				8FE01E0A1361BDC600E74EDB /* UITableView+Tools.h in Headers */,
+				8FE01E0B1361BDC600E74EDB /* UIView+Tools.h in Headers */,
+				8FE01E0C1361BDC600E74EDB /* UIViewController+Tools.h in Headers */,
+				8FE01E0D1361BDDB00E74EDB /* MTDevice.h in Headers */,
+				8FE01E0E1361BDDB00E74EDB /* MTNavigationController.h in Headers */,
+				8FE01E0F1361BDDB00E74EDB /* MTView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FE01E2E1361CCF900E74EDB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -142,13 +280,14 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8FEC9E05132A573A006C6152 /* MacaroniTools */ = {
+		8FE01DEC1361BC8800E74EDB /* MacaroniTools */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FEC9E29132A573B006C6152 /* Build configuration list for PBXNativeTarget "MacaroniTools" */;
+			buildConfigurationList = 8FE01DF61361BC8800E74EDB /* Build configuration list for PBXNativeTarget "MacaroniTools" */;
 			buildPhases = (
-				8FEC9E02132A573A006C6152 /* Sources */,
-				8FEC9E03132A573A006C6152 /* Frameworks */,
-				8FEC9E04132A573A006C6152 /* Headers */,
+				8FE01DE81361BC8800E74EDB /* Sources */,
+				8FE01DEA1361BC8800E74EDB /* Headers */,
+				8FE01DE91361BC8800E74EDB /* Frameworks */,
+				8FE01DEB1361BC8800E74EDB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -156,27 +295,25 @@
 			);
 			name = MacaroniTools;
 			productName = MacaroniTools;
-			productReference = 8FEC9E06132A573A006C6152 /* libMacaroniTools.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = 8FECD6C7136582A400F20FA7 /* MacaroniTools.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		8FEC9E12132A573A006C6152 /* MacaroniToolsTests */ = {
+		8FE01E2F1361CCF900E74EDB /* MacaroniTouch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8FEC9E2C132A573B006C6152 /* Build configuration list for PBXNativeTarget "MacaroniToolsTests" */;
+			buildConfigurationList = 8FE01E371361CCFA00E74EDB /* Build configuration list for PBXNativeTarget "MacaroniTouch" */;
 			buildPhases = (
-				8FEC9E0E132A573A006C6152 /* Sources */,
-				8FEC9E0F132A573A006C6152 /* Frameworks */,
-				8FEC9E10132A573A006C6152 /* Resources */,
-				8FEC9E11132A573A006C6152 /* ShellScript */,
+				8FE01E2C1361CCF900E74EDB /* Sources */,
+				8FE01E2D1361CCF900E74EDB /* Frameworks */,
+				8FE01E2E1361CCF900E74EDB /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8FEC9E1A132A573A006C6152 /* PBXTargetDependency */,
 			);
-			name = MacaroniToolsTests;
-			productName = MacaroniToolsTests;
-			productReference = 8FEC9E13132A573A006C6152 /* MacaroniToolsTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			name = MacaroniTouch;
+			productName = MacaroniTouch;
+			productReference = 8FECD6C8136582A400F20FA7 /* libMacaroniTouch.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -184,6 +321,7 @@
 		8FEC9DFD132A573A006C6152 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "MacaroniCode Software";
 			};
 			buildConfigurationList = 8FEC9E00132A573A006C6152 /* Build configuration list for PBXProject "MacaroniTools" */;
@@ -194,178 +332,208 @@
 				en,
 			);
 			mainGroup = 8FEC9DFB132A573A006C6152;
-			productRefGroup = 8FEC9E07132A573A006C6152 /* Products */;
+			productRefGroup = 8FEC9DFB132A573A006C6152;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8FEC9E05132A573A006C6152 /* MacaroniTools */,
-				8FEC9E12132A573A006C6152 /* MacaroniToolsTests */,
+				8FE01DEC1361BC8800E74EDB /* MacaroniTools */,
+				8FE01E2F1361CCF900E74EDB /* MacaroniTouch */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8FEC9E10132A573A006C6152 /* Resources */ = {
+		8FE01DEB1361BC8800E74EDB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FEC9E21132A573B006C6152 /* InfoPlist.strings in Resources */,
-				8FEC9E24132A573B006C6152 /* MacaroniToolsTests.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		8FEC9E11132A573A006C6152 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		8FEC9E02132A573A006C6152 /* Sources */ = {
+		8FE01DE81361BC8800E74EDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FE01E101361BE3100E74EDB /* NSBundle+Tools.m in Sources */,
+				8FE01E111361BE3100E74EDB /* NSDictionary+Tools.m in Sources */,
+				8FE01E121361BE3100E74EDB /* NSMutableArray+Tools.m in Sources */,
+				8FE01E131361BE3100E74EDB /* NSNull+Tools.m in Sources */,
+				8FE01E141361BE3100E74EDB /* NSObject+Tools.m in Sources */,
+				8FE01E151361BE3100E74EDB /* NSString+Tools.m in Sources */,
+				8FE01E161361BE3100E74EDB /* NSURL+Tools.m in Sources */,
+				8FE01E211361BE3100E74EDB /* MTView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FEC9E0E132A573A006C6152 /* Sources */ = {
+		8FE01E2C1361CCF900E74EDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FEC9E26132A573B006C6152 /* MacaroniToolsTests.m in Sources */,
+				8FE01E3A1361CE6300E74EDB /* NSBundle+Tools.m in Sources */,
+				8FE01E3B1361CE6300E74EDB /* NSDictionary+Tools.m in Sources */,
+				8FE01E3C1361CE6300E74EDB /* NSMutableArray+Tools.m in Sources */,
+				8FE01E3D1361CE6300E74EDB /* NSNull+Tools.m in Sources */,
+				8FE01E3E1361CE6300E74EDB /* NSObject+Tools.m in Sources */,
+				8FE01E3F1361CE6300E74EDB /* NSString+Tools.m in Sources */,
+				8FE01E401361CE6300E74EDB /* NSURL+Tools.m in Sources */,
+				8FE01E411361CE6300E74EDB /* UIAlertView+Tools.m in Sources */,
+				8FE01E421361CE6300E74EDB /* UIButton+Glossy.m in Sources */,
+				8FE01E431361CE6300E74EDB /* UIColor+Tools.m in Sources */,
+				8FE01E441361CE6300E74EDB /* UIDevice+Tools.m in Sources */,
+				8FE01E451361CE6300E74EDB /* UIImageView+Tools.m in Sources */,
+				8FE01E461361CE6300E74EDB /* UITableView+Tools.m in Sources */,
+				8FE01E471361CE6300E74EDB /* UIView+Tools.m in Sources */,
+				8FE01E481361CE6300E74EDB /* UIViewController+Tools.m in Sources */,
+				8FE01E491361CE6300E74EDB /* MTDevice.m in Sources */,
+				8FE01E4A1361CE6300E74EDB /* MTNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		8FEC9E1A132A573A006C6152 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 8FEC9E05132A573A006C6152 /* MacaroniTools */;
-			targetProxy = 8FEC9E19132A573A006C6152 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		8FEC9E1F132A573A006C6152 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8FEC9E20132A573A006C6152 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
+		8FE01DF71361BC8800E74EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacaroniTools/MacaroniTools-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "MacaroniTools/MacaroniTools-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		8FE01DF81361BC8800E74EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacaroniTools/MacaroniTools-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "MacaroniTools/MacaroniTools-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		8FE01E381361CCFA00E74EDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DSTROOT = "$(BUILT_PRODUCTS_DIR)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacaroniTouch/MacaroniTouch-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7 armv7f armv7k i386";
+			};
+			name = Debug;
+		};
+		8FE01E391361CCFA00E74EDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DSTROOT = "$(BUILT_PRODUCTS_DIR)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacaroniTouch/MacaroniTouch-Prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7 armv7f armv7k i386";
+			};
+			name = Release;
+		};
 		8FEC9E27132A573B006C6152 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				SDKROOT = iphoneos;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
 		8FEC9E28132A573B006C6152 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				SDKROOT = iphoneos;
-			};
-			name = Release;
-		};
-		8FEC9E2A132A573B006C6152 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = /tmp/MacaroniTools.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MacaroniTools/MacaroniTools-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		8FEC9E2B132A573B006C6152 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				DSTROOT = /tmp/MacaroniTools.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MacaroniTools/MacaroniTools-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		8FEC9E2D132A573B006C6152 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MacaroniToolsTests/MacaroniToolsTests-Prefix.pch";
-				INFOPLIST_FILE = "MacaroniToolsTests/MacaroniToolsTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
-			};
-			name = Debug;
-		};
-		8FEC9E2E132A573B006C6152 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MacaroniToolsTests/MacaroniToolsTests-Prefix.pch";
-				INFOPLIST_FILE = "MacaroniToolsTests/MacaroniToolsTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-				);
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8FE01DF61361BC8800E74EDB /* Build configuration list for PBXNativeTarget "MacaroniTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE01DF71361BC8800E74EDB /* Debug */,
+				8FE01DF81361BC8800E74EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FE01E371361CCFA00E74EDB /* Build configuration list for PBXNativeTarget "MacaroniTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FE01E381361CCFA00E74EDB /* Debug */,
+				8FE01E391361CCFA00E74EDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8FEC9E00132A573A006C6152 /* Build configuration list for PBXProject "MacaroniTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -374,22 +542,6 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
-		};
-		8FEC9E29132A573B006C6152 /* Build configuration list for PBXNativeTarget "MacaroniTools" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8FEC9E2A132A573B006C6152 /* Debug */,
-				8FEC9E2B132A573B006C6152 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		8FEC9E2C132A573B006C6152 /* Build configuration list for PBXNativeTarget "MacaroniToolsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8FEC9E2D132A573B006C6152 /* Debug */,
-				8FEC9E2E132A573B006C6152 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

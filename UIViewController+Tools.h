@@ -7,6 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+@class MTNavigationController;
+@class MTDevice;
 
 /**
  * Extensions for the UIViewController class.
@@ -32,6 +36,12 @@
  * The view controller will receive this message if either <code>-[popViewControllerAnimated:]</code>, <code>-[popToViewController:animated:]</code> or <code>-[popToRootViewControllerAnimated:]</code> was called on the Navigation Controller or the user pressed the Back Button.
  */
 - (void)viewDidPopAnimated:(BOOL)animated;
+
+/**
+ * Message sent my an MTNavigationController, override to handle.
+ * The view controller will receivet this message if it gets pushed onto the view stack of the navigation controller.
+ */
+- (void)viewDidPushAnimated:(BOOL)animated;
 
 /**
  * Presents a Modal View Controller, optionally also creating a Navigation Controller for it.

@@ -12,17 +12,12 @@
 
 - (BOOL)isPhone
 {
-	return ([[self model] hasPrefix:@"iPhone"]);
-}
-
-- (BOOL)isPod
-{
-	return ([[self model] hasPrefix:@"iPod"]);
+	return ([self userInterfaceIdiom] == UIUserInterfaceIdiomPhone);//([[self model] hasPrefix:@"iPhone"]);
 }
 
 - (BOOL)isPad
 {
-	return ([[self model] hasPrefix:@"iPad"]);
+	return ([self userInterfaceIdiom] == UIUserInterfaceIdiomPad);//([[self model] hasPrefix:@"iPad"]);
 }
 
 - (BOOL)isOS4

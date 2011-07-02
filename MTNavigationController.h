@@ -7,6 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "UIViewController+Tools.h"
 
 /**
  * Subclass of UINavigationController that sends additional messages to affected view controllers.

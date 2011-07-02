@@ -11,7 +11,7 @@
 @implementation NSURL(Tools)
 
 //Returns the URL Query as a Dictionary
-- (NSDictionary *)queryAsDictionary
+- (NSDictionary *)queryDictionary
 {
 	NSArray *split = [[self query] componentsSeparatedByString:@"&"]; //Split the attributes by "&" to separate them
 	NSMutableArray *keys = [NSMutableArray array]; //Initially empty array of Keys
